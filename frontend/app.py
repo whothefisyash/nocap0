@@ -38,7 +38,7 @@ st.markdown(
 
 
 # Option to choose between Text Input or Tweet URL
-option = st.radio("Choose an option:", ["Enter Text", "Check Tweet URL"])
+option = st.radio("Choose an option:", ["Enter Text", "Check X URL"])
 
 def display_credibility_info(verdict, explanation):
     """Display the verdict and detailed explanation."""
@@ -47,7 +47,7 @@ def display_credibility_info(verdict, explanation):
     st.write(explanation)
 
 # If user chooses "Enter Text"
-if option == "Check Text":
+if option == "Enter Text":
     text_input = st.text_area("Paste your text here:", height=200)
     
     # Fact check the entered text
