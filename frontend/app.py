@@ -47,7 +47,7 @@ def display_credibility_info(verdict, explanation):
     st.write(explanation)
 
 # If user chooses "Enter Text"
-if option == "Enter Text":
+if option == "Check Text":
     text_input = st.text_area("Paste your text here:", height=200)
     
     # Fact check the entered text
@@ -66,8 +66,8 @@ if option == "Enter Text":
             st.error("Please enter some text to check.")
             
 # If user chooses "Check Tweet URL"
-elif option == "Check Tweet URL":
-    tweet_url = st.text_input("Enter a Tweet URL or Tweet ID:", placeholder="https://x.com/user/status/1753564897654323200")
+elif option == "Check X URL":
+    tweet_url = st.text_input("Enter a X URL or X ID:", placeholder="https://x.com/user/status/1753564897654323200")
 
     # Check the misinformation for the tweet
     if st.button("Check Misinformation"):
