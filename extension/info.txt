@@ -1,0 +1,5 @@
+🔹 Features of the Extension
+✅ Allows users to select text on any webpage and check for misinformation
+✅ Integrates with your existing Streamlit app (NoCap)
+✅ Uses context menu (right-click) to send selected text for verification
+✅ Displays results in a popup
