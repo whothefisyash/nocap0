@@ -67,7 +67,7 @@ if option == "Enter Text":
             
 # If user chooses "Check Tweet URL"
 elif option == "Check Tweet URL":
-    tweet_url = st.text_input("Enter a Tweet URL or Tweet ID:", placeholder="https://twitter.com/user/status/1753564897654323200")
+    tweet_url = st.text_input("Enter a Tweet URL or Tweet ID:", placeholder="https://x.com/user/status/1753564897654323200")
 
     # Check the misinformation for the tweet
     if st.button("Check Misinformation"):
